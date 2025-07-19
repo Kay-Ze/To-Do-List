@@ -1,0 +1,62 @@
+body {
+  background-color: darkslategrey;
+  color: White;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+h1 {
+  background-color: black;
+  color: rgb(255, 0, 0);
+  /* text-shadow: 1px 1px 5px orange; */
+  border: double, 6px, red;
+  box-shadow: 2px 2px 5px red;
+  padding: 20px;
+  font-weight: bolder;
+  /* outline: solid 2px black; */
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+input {
+  background-color: black;
+  color: aliceblue;
+  border: solid 2px red;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 30px;
+  box-shadow: -3px -3px 8px orange, 3px -3px 8px orange, -3px 3px 8px orange,
+    3px 3px 8px orange;
+}
+
+.btn {
+  background-color: rgb(22, 21, 21);
+  color: aliceblue;
+  height: 70px;
+  width: 200px;
+  box-shadow: 1px 1px 8px orange;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  border: solid 2px red;
+}
+
+.Inner_btn {
+  background-color: black;
+  color: aliceblue;
+  border: solid 2px red;
+  box-shadow: 1px 1px 8px orange;
+}
+
+.container {
+  background-color: bisque;
+  color: black;
+  height: 450px;
+  width: 500px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  border: solid 3px black;
+}
